@@ -83,6 +83,10 @@ PRODUCT_PACKAGES += \
     mkfs.ntfs \
     mount.ntfs
 
+# Long Screenshot
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := false
 ifneq ($(TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK), true)
